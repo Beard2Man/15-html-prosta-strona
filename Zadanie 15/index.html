@@ -60,12 +60,15 @@
     <br />
 
     <form>
-      <dt>Imię</dt>
-      <dd><input type="text" name="imie" required /></dd>
-      <dt>Temat</dt>
-      <dd><input type="text" name="temat" required /></dd>
-      <dt>Wiadomość</dt>
-      <dd><textarea name="wiadomosc" required></textarea></dd>
+      <label for="name">Imię</label>
+      <input type="text" name="imie" id="name" required /><br />
+
+      <label for="text" name="temat">Temat</label>
+      <input type="text" name="subject" id="subject" required /><br />
+
+      <label for="message" name="">Wiadomość</label>
+      <input type="text" name="message" id="message" required /><br />
+
       <input type="submit" value="Wyślij" />
       <input type="reset" value="Wyczyść" />
     </form>
